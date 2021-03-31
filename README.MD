@@ -127,3 +127,25 @@ Inserção characters
 
   No exemplo acima é necessário recuperar primeiro os livros cadastrados para que seja feito a referência dos livros em "povBook"
 ```
+
+## Docker
+
+Foi utilizado docker para a criação de uma imagem da aplicação. Para subir a imagem fazer os seguintes passos:
+
+- Criar a imagem à partir do docker file da raiz do projeto.
+  
+```docker
+  docker build -t gabrielsartorato/testemobix .
+```
+
+- Subir o container à partir da imagem criada acima, será criado um container com o nome testemobix que ficara rodando em background respondendo à porta local 3000.
+
+```docker
+  docker container run -d --name testemobix -p 3000:3000 gabrielsartorato/testemobix
+```
+
+- Após a criação do container, rodar o comando abaixo para subi-lo.
+
+```docker
+  docker container start docker container start testemobix
+```
