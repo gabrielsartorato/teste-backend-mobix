@@ -1,0 +1,23 @@
+{
+  "name": "teste-backend-mobix",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js"
+    
+  },
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-async-errors": "^3.1.1",
+    "mongodb": "^3.6.5",
+    "multer": "^1.4.2",
+    "reflect-metadata": "^0.1.13"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}

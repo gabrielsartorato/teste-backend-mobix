@@ -1,0 +1,160 @@
+[
+  {
+    "name": "Arya Stark",
+    "gender": "Female",
+    "culture": "Northmen",
+    "born": "In 289 AC, at Winterfell",
+    "aliases": [
+      "Arya Horseface",
+      "Arya Underfoot",
+      "Arry",
+      "Lumpyface",
+      "Lumpyhead",
+      "Stickboy",
+      "Weasel",
+      "Nymeria",
+      "Squan",
+      "Saltb",
+      "Cat of the Canaly",
+      "Bets",
+      "The Blind Girh",
+      "The Ugly Little Girl",
+      "Mercedenl",
+      "Mercye"
+    ],
+    "povBooks": [
+      "6063a65e4ad59c20f0a6056d",
+      "6063a63c4ad59c20f0a6056c",
+      "6063a6194ad59c20f0a6056b",
+      "6063a5755622a91f4cbf6ad3",
+      "6063a67a4ad59c20f0a6056e"
+    ],
+    "playedBy": [
+      "Maisie Williams"
+    ]
+  },
+  {
+    "name": "Brandon Stark",
+    "gender": "Male",
+    "culture": "Northmen",
+    "born": "In 290 AC, at Winterfell",
+    "titles": [
+      "Prince of Winterfell"
+    ],
+    "aliases": [
+      "Bran",
+      "Bran the Broken",
+      "The Winged Wolf"
+    ],
+    "povBooks": [
+      "6063a65e4ad59c20f0a6056d",
+      "6063a63c4ad59c20f0a6056c",
+      "6063a6194ad59c20f0a6056b",
+      "6063a67a4ad59c20f0a6056e"
+    ],
+    "playedBy": [
+      "Isaac Hempstead-Wright"
+    ]
+  },
+  {
+    "name": "Catelyn Stark",
+    "gender": "Female",
+    "culture": "Rivermen",
+    "born": "In 264 AC, at Riverrun",
+    "died": "In 299 AC, at the Twins",
+    "titles": [
+      "Lady of Winterfell"
+    ],
+    "aliases": [
+      "Catelyn Tully",
+      "Lady Stoneheart",
+      "The Silent Sistet",
+      "Mother Mercilesr",
+      "The Hangwomans"
+    ],
+    "povBooks":[
+      "6063a65e4ad59c20f0a6056d",
+      "6063a63c4ad59c20f0a6056c",
+      "6063a6194ad59c20f0a6056b"
+    ],
+    "playedBy": [
+      "Michelle Fairley"
+    ]
+  },
+  {
+    "name": "Eddard Stark",
+    "gender": "Male",
+    "culture": "Northmen",
+    "born": "In 263 AC, at Winterfell",
+    "died": "In 299 AC, at Great Sept of Baelor in King's Landing",
+    "titles": [
+      "Lord of Winterfell",
+      "Warden of the North",
+      "Hand of the King",
+      "Protector of the Realm",
+      "Regent"
+    ],
+    "aliases": [
+      "Ned",
+      "The Ned",
+      "The Quiet Wolf"
+    ],
+    "povBooks": [
+      "6063a65e4ad59c20f0a6056d",
+      "6063a63c4ad59c20f0a6056c",
+      "6063a5755622a91f4cbf6ad3",
+      "6063a67a4ad59c20f0a6056e"
+    ]
+  },
+  {
+    "name": "Jon Snow",
+    "gender": "Male",
+    "culture": "Northmen",
+    "born": "In 283 AC",
+    "titles": [
+      "Lord Commander of the Night's Watch"
+    ],
+    "aliases": [
+      "Lord Snow",
+      "Ned Stark's Bastard",
+      "The Snow of Winterfell",
+      "The Crow-Come-Over",
+      "The 998th Lord Commander of the Night's Watch",
+      "The Bastard of Winterfell",
+      "The Black Bastard of the Wall",
+      "Lord Crow"
+    ],
+    "playedBy": [
+      "Kit Harington"
+    ],
+    "povBooks":[
+      "6063a65e4ad59c20f0a6056d",
+      "6063a63c4ad59c20f0a6056c",
+      "6063a6194ad59c20f0a6056b",
+      "6063a67a4ad59c20f0a6056e"
+    ]
+  },
+  {
+    "name": "Sansa Stark",
+    "gender": "Female",
+    "culture": "Northmen",
+    "born": "In 286 AC, at Winterfell",
+    "titles": [
+      "Princess"
+    ],
+    "aliases": [
+      "Little bird",
+      "Alayne Stone",
+      "Jonquil"
+    ],
+    "playedBy": [
+      "Sophie Turner"
+    ],
+    "povBooks":[
+      "6063a65e4ad59c20f0a6056d",
+      "6063a63c4ad59c20f0a6056c",
+      "6063a6194ad59c20f0a6056b",
+      "6063a5755622a91f4cbf6ad3"
+    ]
+  }
+]
