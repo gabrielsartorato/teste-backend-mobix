@@ -10,10 +10,8 @@ const app = express();
 
 const { routes } = require('./routes/index');
 
-app.use(express.json());
-
 app.use(cors());
-
+app.use(express.json());
 app.use(routes);
 
 MongoHelper.connect(process.env.MONGO_URL).then(async () => {

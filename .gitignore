@@ -2,4 +2,6 @@
 
 /upload
 
-!/upload/.gitkeep
+/upload/!.gitkeep
+
+.env
