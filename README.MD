@@ -2,6 +2,9 @@
 
 Instruções para correção do desafio
 
+Para requisições locais utilizar a url http://localhost:3333
+Para requisições no replit utilizar a url https://teste-backend-mobx.gabrielsartorat.repl.co
+
 ## Books
 
 Para os livros foram cadastrados os seguintes campos da Api: name, isbn, authors, numberOfPages, publisher, country, mediaType, released e cover (formato base64)
