@@ -2,7 +2,7 @@
 
 Instruções para correção do desafio
 
-Para requisições locais utilizar a url http://localhost:3333
+Para requisições locais utilizar a url http://localhost:3333  
 Para requisições no Replit utilizar a url https://teste-backend-mobx.gabrielsartorat.repl.co
 
 **Não esquecer de renomear o arquivo .env.example para somente .env e colocar o valor da url do MongoDB, tanto localmente quanto no Replit**
