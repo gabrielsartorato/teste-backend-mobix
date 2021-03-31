@@ -26,8 +26,26 @@ Para os livros foram cadastrados os seguintes campos da Api: name, isbn, authors
 Recuperação de livros
 
 ```js
-  Executar HTTP - GET em /books para recuperar todos os livros
-  Executar HTTP - GET em /books/:id para recuperar um livro em especifico, onde está :id trocar por um dos ids lsitados acima
+  Executar requisição HTTP - GET em /books para recuperar todos os livros
+  Executar requisição HTTP - GET em /books/:id para recuperar um livro em especifico, onde está :id trocar por um dos ids lsitados acima
+```
+
+Inserção Book
+
+```js
+  Executar requisição HTTP - POST em /books, usar o multipart (insominia) para a requisição devido ser inserido imagem junto: 
+
+  {
+    "name": "The Mystery Knight",
+    "isbn": "978-0765360267",
+    "authors: [ "George R. R. Martin"],
+    "numberOfPages": 832,
+    "publisher": "Tor Fantasy",
+    "country": "United States",
+    "mediaType": "Paperback",
+    "released": "2011-03-29T00:00:00",
+    "file": file
+  }
 ```
 
 ## Characters
@@ -59,6 +77,53 @@ Para os personagens foram cadastrados os seguintes campos da Api: name, gender, 
   "6063c7749d4eed6f17496c2f"
 ```
 
+Recuperação de characters
+
 ```js
-  Executar HTTP - GET em /character/:id para recuperar um character em especifico, onde está :id trocar por um dos ids listados acima
+  Executar requisição HTTP - GET em /character/:id para recuperar um character em especifico, onde está :id trocar por um dos ids listados acima
+```
+
+Inserção characters
+
+```js
+  Executar requisição HTTP - POST em /character, dentro do body colocar um array no seguinte formato:
+
+  [
+    {
+      "name": "Arya Stark",
+      "gender": "Female",
+      "culture": "Northmen",
+      "born": "In 289 AC, at Winterfell",
+      "aliases": [
+        "Arya Horseface",
+        "Arya Underfoot",
+        "Arry",
+        "Lumpyface",
+        "Lumpyhead",
+        "Stickboy",
+        "Weasel",
+        "Nymeria",
+        "Squan",
+        "Saltb",
+        "Cat of the Canaly",
+        "Bets",
+        "The Blind Girh",
+        "The Ugly Little Girl",
+        "Mercedenl",
+        "Mercye"
+      ],
+      "povBooks": [
+        "6063a65e4ad59c20f0a6056d",
+        "6063a63c4ad59c20f0a6056c",
+        "6063a6194ad59c20f0a6056b",
+        "6063a5755622a91f4cbf6ad3",
+        "6063a67a4ad59c20f0a6056e"
+      ],
+      "playedBy": [
+        "Maisie Williams"
+      ]
+    }
+  ]
+
+  No exemplo acima é necessário recuperar primeiro os livros cadastrados para que seja feito a referência dos livros em "povBook"
 ```
